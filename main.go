@@ -10,12 +10,6 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-type Book struct {
-	Id   int    `json:"id"`
-	Name string `json:"name"`
-	Url  string `json:"url"`
-}
-
 type Product struct {
 	Id          int    `json:"id"`
 	Name        string `json:"name"`
